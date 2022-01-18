@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#wrapper,
+#chapter {
+  padding: 15px;
+  margin: 10px;
+}
+#chapter {
+  max-width: 60ch;
+  line-height: 1.2em;
+  margin: 10px auto;
+}
+#chapter > h1 {
+  margin: 15px;
+}
+.read {
+  background-color: rgba(0, 128, 0, 0.411);
+}
+#form {
+  visibility: hidden;
+  width: 0;
+}
+button {
+  margin: 10px auto;
+  text-align: center;
+}
